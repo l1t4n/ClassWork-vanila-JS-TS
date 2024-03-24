@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+
+    <div class="title">UniversalSuperPuperConverter9000</div>
+
+    <div id="app">
+
+
+      <div class="converter-box">
+
+        <div class="input-from-wrapper">
+          <input class="input" id="inputFrom" type="number" placeholder="scrijv jouw getaal uit">
+        </div>
+  
+        <div class="selects-wrapper">
+  
+          <select class="selector" id="firstSelect">
+            <option>₴</option>
+            <option>€</option>
+            <option>$</option>
+          </select>
+
+          <div class="div">
+            to
+          </div>
+  
+          <select class="selector" id="secondSelect">
+            <option>€</option>
+            <option>$</option>
+            <option>₴</option>
+          </select>
+  
+        </div>
+  
+        <div class="input-to-wrapper">
+          <input class="input" id="inputTo" type="text" placeholder="scrijv jouw getaal naar" readonly>
+        </div>
+
+      </div>
+
+      <div class="apply-wrapper">
+        <button id="apply">Apply</button>
+      </div>
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
